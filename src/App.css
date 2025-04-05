@@ -1,0 +1,131 @@
+.hero {
+  background: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/03/69/85/the-after-dinner-candied.jpg?w=1800&h=1000&s=1') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  padding: 100px 0; /* Adjust padding for better visibility */
+  text-align: center;
+  height: 100vh; /* Full screen height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 24px;
+}
+
+.nav-bar{
+  background-color: #4caf50; 
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
+.nav-bar .navbar-brand{
+  text-decoration: none;
+  font-size:xx-large;
+  font-weight: bold;
+  color: white;
+}
+
+.nav-bar .navbar-nav a{
+  color: white;
+  text-decoration: none;
+  font-size: medium;
+  text-transform: uppercase;
+  padding-right: 50px;
+  font-weight: bold;
+}
+
+.basic-footer{
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.Menu{
+  padding: 15px 0px;
+  justify-items: center;
+}
+
+.category-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+}
+
+.category-card img {
+  width: 250px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.category-card:hover{
+  transform: scale(1.05);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+}
+
+.category-card .card-title{
+  font-size: large;
+  font-weight: bold;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  justify-content: center;
+}
+
+.col {
+  display: flex;
+  justify-content: center; 
+}
+
+button {
+  background-color: #ff6600;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #e65c00;
+}
+
+.contact-us {
+  padding: 100px 20px 20px; 
+  text-align: center;
+  background-color: #daf2db;
+  color: rgb(27, 26, 26);
+  align-content: center;;
+}
+
+.contact-us h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.contact-us p {
+  font-size: 18px;
+  margin: 10px 0;
+}
